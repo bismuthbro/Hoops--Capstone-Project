@@ -21,6 +21,7 @@ function App() {
       }})
     }
   },[userData])
+  // if / else statement used to navigate the user back to the login screen from anywhere in the application if userData becomes null (logged out)
   return (
     <>
       <div className='backgroundDiv' style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexGrow: 1, height: '93vh', width:'98vw', padding:'1vw',backgroundImage:`url(${backgroundImg})`,backgroundSize:'cover',backgroundRepeat:'no-repeat',backgroundPosition:'center' }}>
@@ -29,5 +30,5 @@ function App() {
     </>
   )
 }
-
+  // outlet used so that background div can be shown in all areas of the application
 export default App

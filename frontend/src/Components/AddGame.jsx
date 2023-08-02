@@ -26,6 +26,7 @@ export default function AddGame() {
         )
         }))
     })
+    // courts are retrieved from database with API call and mapped to menu items of dropdown box
     },[])
     function handleLocationChange(event){
         setLocation(event.target.value)
@@ -43,6 +44,7 @@ export default function AddGame() {
         console.log('submitting')
         navigate(`/Games/${location}`)
         }else {alert('You must select a date in the future!')}}
+    // if / else statement ensures users must select a game date in the future to avoid users creating games in the past, logging in again and voting for themselves for MVP to recieve free MVPs
     return (
         <div className="addgamediv">
             <form onSubmit={submitHandler}>

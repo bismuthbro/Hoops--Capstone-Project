@@ -9,7 +9,8 @@ import {Radio} from "@mui/material"
 
 export default function MvpVote(props) {
     const gameDate = new Date(props.gameData.date)
-    const parsedgameDate = gameDate.getDate() + '/' + gameDate.getMonth() + '/' + gameDate.getFullYear() + ' '+ 'at ' + gameDate.getHours() + ':' + gameDate.getMinutes()
+    const parsedgameDate = gameDate.getDate() + '/' + (gameDate.getMonth() + 1) + '/' + gameDate.getFullYear() + ' '+ 'at ' + (gameDate.getHours() < 10 ? 0 + gameDate.getHours() : gameDate.getHours()) + ':' + (gameDate.getMinutes() < 10 ? 0 + gameDate.getMinutes() : gameDate.getMinutes())
+    // date is parsed from unix epoch time to 24hr time and zeroes are added if hours or minutes are less than 10 so that time is displayed correctly
     const navigate = useNavigate()
     const {userData} = useContext(Authcontext)
     function handleSubmit(e){
@@ -25,6 +26,7 @@ export default function MvpVote(props) {
         ))}else {
             navigate('/Search')}})
     } 
+    // API call also checks if the list of games to be voted on is more than 1, if not the user is navigated to serach
     return(
     <form onSubmit={handleSubmit}>
     <Typography>Vote for the MVP of your game on {parsedgameDate} !</Typography>

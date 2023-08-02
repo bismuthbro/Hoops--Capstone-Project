@@ -14,6 +14,7 @@ export default function CourtSearch() {
         }))
     })
     },[])
+    // courts retrieved from database using API call and mapped to dropdown menuitems
     let [location, setLocation] = useState('')
     const navigate = useNavigate()
     function handleChange(event){
@@ -22,6 +23,7 @@ export default function CourtSearch() {
     function handleSearch(){
         navigate('/Games/'+ location)
     }
+    // location is passed upon navigate as a path parameter
     return (
         <>
         <div className="searchdiv">

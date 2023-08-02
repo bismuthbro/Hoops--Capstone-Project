@@ -13,24 +13,28 @@ export function Game(props) {
             setPlayersData(response.data)
         })
     },[])
+    // users present in each game are retrieved once using useEffect with empty array for dependency
     let [hostImg, setHostImg] = useState(null)
     let [hostName, setHostName] = useState(null)
     useEffect(()=>{axios.get(`http://localhost:3000/users/user/${props.hostid}`)
     .then((response)=>{setHostImg('http://localhost:3000/image/'+ response.data.imagepath);
     setHostName(response.data.username)    
     })},[])
+    // user image paths also retrieved once using useEffect with empty array for dependency
     let joinHandler = () => {
         if(playersData.findIndex((player)=>{return player.username === username}) === -1){
             axios.put(`http://localhost:3000/games/updategame/?username=${username}&_id=${props._id}&imagepath=${imagepath}`)
             .then(() => alert('You have been added to the game!'))
         } else {alert('You have already joined this game!')}
     }
+    // if / else statement used to ensure users cannot join games they are already a part of
     function parseDate(datestring) {
         const date = new Date(datestring)
         return (
             date.getDate() + '/' + (date.getMonth()+1) + '/' + date.getFullYear() + ' ' + (date.getHours() < 10 ? '0' + date.getHours() : date.getHours()) + ':' + (date.getMinutes() < 10 ? '0' + date.getMinutes() : date.getMinutes())
         )
     }
+    // date is parsed from unix epoch time to 24hr time
     return (
         <div style={{ display: "flex", flexDirection: "row",  gap: '2%',backgroundColor: 'rgb(112,112,112)', borderRadius: 8, padding: '2%' }}>
             <div style={{display:'flex',flexDirection:'column'}}>
@@ -53,4 +57,5 @@ export function Game(props) {
             </div>
         </div>
     )
+    // player username typography wrapped in playertooltip component so that player image and MVPs are displayed on mouse enter and removed on mouse leave
 }

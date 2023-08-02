@@ -18,6 +18,7 @@ export function Signup() {
                     'Content-Type': 'multipart/form-data'
                 }
             })
+        // check is made to ensure repeated passwords match before posting new user info to DB
             .then((response)=>{
                 const {password,...userData} = response.data
                 setUserData(userData)
@@ -25,6 +26,7 @@ export function Signup() {
             })
         } else {alert('The passwords must match')}
     }
+        // user data is set using response to automatically log user in after signing up
     return(
         <div style={{display:'flex',justifyContent:'center',alignItems:'center',backgroundImage:`url(${backgroundImg})`,backgroundSize:'cover',backgroundRepeat:'no-repeat',backgroundPosition:'center',height: '100vh', width:'100vw', }}>
         <div className="signupdiv">

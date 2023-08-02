@@ -21,6 +21,7 @@ export function Login() {
             navigator('/Search')
         })
     }
+    // login submit uses API call to check if hashed password in DB matches hashed version of submitted password
     return(
         <div style={{display:'flex',justifyContent:'center',alignItems:'center',backgroundImage:`url(${backgroundImg})`,backgroundSize:'cover',backgroundRepeat:'no-repeat',backgroundPosition:'center',height: '100vh', width:'100vw', }}>
         <div className='LoginDiv'>

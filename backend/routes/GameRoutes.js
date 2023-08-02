@@ -9,9 +9,11 @@ router.get('/:locationId', (req,res)=>{
 router.get('/multiplegames/:gameids', (req,res)=>{
     controller.getSpecificGames(req,res)
 }) 
+// retrieve multiple games details by id
 router.get('/vote/:username', (req,res)=>{
     controller.getVotingGames(req,res)
 })
+// games which a user needs to vote on are retrieved by user's username
 router.post('/newgame', (req,res)=>{
     controller.newGame(req,res)
 })
@@ -19,9 +21,11 @@ router.post('/newgame', (req,res)=>{
 router.put('/updategame', (req,res)=>{
     controller.updateGame(req,res)
 })
+// updating a game for joining games
 router.put('/updatemvps', (req,res)=>{
     controller.updateGameMvps(req,res)
 })
+// updating MVP votes for a game
 router.delete('/deletegame', (req,res)=>{
     controller.deleteGame(req,res)
 })

@@ -8,6 +8,7 @@ exports.getGames = (req,res)=>{
 })
     .catch((error)=>{res.json({error})})
 }
+// games retrieved by location id and sent back to frontend
 exports.getSpecificGames = (req,res)=>{
     gameModel.find({_id:{$in:JSON.parse(req.params.gameids)}})
     .then((games)=>{
@@ -15,6 +16,7 @@ exports.getSpecificGames = (req,res)=>{
     })
     .catch((error)=>res.json(error))
 }
+// specific games retrieved by id and sent back to frontend
 exports.getVotingGames = (req,res)=>{
     let today = new Date()
     gameModel.find({"players":{$elemMatch:{"username":req.params.username,"hasvoted":false}},"date":{$lt:today}}).lean()
@@ -27,7 +29,7 @@ exports.getVotingGames = (req,res)=>{
         res.json({error})
     })
 }
-// fetch details for a game
+// fetch details for a game that needs to be voted on by a particular user
 exports.newGame = (req,res)=>{
     const {hostinfo,...gamedata} = req.body
     hostinfo.numberofvotes = 0
@@ -94,3 +96,4 @@ exports.updateGameMvps = (req,res)=>{
         console.error('Error:', error)
     })
 }
+// updating number of MVP votes a user has in a specific gameas, this required a surprisingly extensive amount of code. There may be a better way to code this functionality. To be reviewed in future.

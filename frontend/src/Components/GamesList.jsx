@@ -18,6 +18,7 @@ export default function GamesList() {
             setListState(ListOfGames)
         })
     })},[])
+    // list of games is displayed using MUI grid. different sizes are specified for page responsiveness.
     return(
         <>
         <Grid container spacing={1.8} columnSpacing={{ xs: 1, sm: 2, md: 2 }}>

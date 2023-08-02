@@ -18,12 +18,14 @@ export default function MvpVoteList() {
                 return false
             } return true
         })
+        // check is made to see if all players in voting game have voted after user has voted, if all players have voted the game is deleted and correct user is awarded MVP
         if(games.length === 0){navigate('/Search')}else{
         setListState(games.map((game)=>{
             return <MvpVote key={game._id} gameData={game} listState={listState} setListState={setListState}></MvpVote>
         }))
     }})
 },[])
+// user is navigated back to search component if there are no more games to be voted on
 
     return(
         <div className="votingdiv">

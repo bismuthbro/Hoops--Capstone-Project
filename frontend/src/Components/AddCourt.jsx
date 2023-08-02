@@ -16,6 +16,7 @@ export default function AddCourt() {
         }
         axios.post('http://localhost:3000/locations/newlocation',newLocationData)
         .then(()=>{navigate('/Add')})
+        // handle submit navigates back to add game after new court has been added
     }
     return(
         <div className="addcourtdiv">

@@ -11,6 +11,7 @@ exports.getUsers = (req,res)=>{
         res.json({error})
     })
 }
+// finds users by username and sends their details to frontend for image and MVP display in playertooltip
 
 exports.getUser = (req,res)=>{
     userModel.findOne({_id:req.params._id})
@@ -19,7 +20,7 @@ exports.getUser = (req,res)=>{
 })
     .catch((error)=>{res.json({error})})
 }
-// fetch details for a user
+// fetch details for a user by id passed as path parameter
 exports.newUser = (req,res)=>{
     const {password} = req.body
     const hashedPassword = bcrypt.hashSync(password,12)
@@ -29,7 +30,7 @@ exports.newUser = (req,res)=>{
     .then((user)=>res.json(user))
     .catch((error)=>{res.json({error})})
 }
-// adds details for a new user
+// adds details for a new user and hashes bassword
 exports.login = (req,res)=>{
     const {username,password} = req.body
     userModel.findOne({username:username})
@@ -39,6 +40,7 @@ exports.login = (req,res)=>{
         if(passwordCorrect){res.json(user)} else {res.status(400).json({message:'incorrect password'})}
     })
 }
+// checks if user entered password is correct when logging in by comparing hashed request password to password hash in DB
 exports.updateUser = (req,res)=>{
     userModel.findOneAndUpdate({id:req.body.id},req.body.update)
     .then(()=>res.send('successfully updated'))

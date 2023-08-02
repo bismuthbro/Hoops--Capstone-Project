@@ -20,6 +20,7 @@ const storage = multer.diskStorage({
         }
     }
 })
+// code for storage of user images using multer
 const upload = multer({storage})
 
 router.get('/user/:_id', (req,res)=>{
