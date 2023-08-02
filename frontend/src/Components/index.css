@@ -1,0 +1,108 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+.LoginDiv{
+  border-radius: 3%;
+  height: 40vh;
+  background-color: rgb(112,112,112);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20vw;
+}
+.LoginDiv > *{
+  margin-top: 1vh;
+}
+.dashboard{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 7vh;
+  background-color:rgb(112,112,112);
+  display: flex;
+  justify-content: center;
+}
+.inputtext{
+  height: 2.5vh;
+  width: 15vw;
+  font-size: 120%;
+  border-radius: 5px;
+  border: 3px solid rgba(0, 0, 0, 0.3);
+}
+.searchdiv{
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  width: 25vw;
+  background-color: rgb(112,112,112);
+  border-radius: 3%;
+}
+.signupdiv{
+  border-radius: 3%;
+  height: 40vh;
+  background-color: rgb(112,112,112);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20vw;
+}
+.addgamediv{
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  width: 25vw;
+  background-color: rgb(112,112,112);
+  border-radius: 3%;
+}
+.addcourtdiv{
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  width: 25vw;
+  background-color: rgb(112,112,112);
+  border-radius: 2%;
+}
+.votingdiv{
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  width: 80vw;
+  background-color: rgb(112,112,112);
+  border-radius: 2%;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+.tooltip-container{
+  position: relative;
+  display: inline-block;
+}
+.tooltip{
+  position: absolute;
+  top: calc(-100% -50px);
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 4px;
+  border-radius: 4px;
+  z-index: 1;
+}
+.MuiOutlinedInput-notchedOutline {
+  border-width: 1px !important;
+  border-color: rgba(255, 104, 3,0.8) !important;
+}
+.MuiFormLabel-root{
+  color: rgba(255, 104, 3,0.9) !important
+}
+.Mui-selected{
+  background-color: rgba(255, 104, 3,0.9) !important
+}
+.MuiTypography-root{
+  font-family: 'REM', sans-serif !important
+}
