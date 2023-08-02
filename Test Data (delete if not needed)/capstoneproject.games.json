@@ -1,0 +1,516 @@
+[{
+  "_id": {
+    "$oid": "64c9279382ff677e2865896c"
+  },
+  "players": [
+    {
+      "username": "bismuth_bro",
+      "imagepath": "8a301910-fdb9-49b0-a469-040f593030c1.jpg",
+      "numberofvotes": 0,
+      "hasvoted": false
+    }
+  ],
+  "locationid": {
+    "$oid": "64c9278682ff677e28658968"
+  },
+  "skill": "Intermediate",
+  "hostid": {
+    "$oid": "64c9275d82ff677e28658960"
+  },
+  "date": {
+    "$date": "2023-08-07T15:40:54.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c9304882ff677e286589eb"
+  },
+  "players": [
+    {
+      "username": "stephcurry",
+      "imagepath": "491d3090-9b22-4c15-8de8-94e96e749f0c.jpg",
+      "numberofvotes": 0,
+      "hasvoted": false
+    },
+    {
+      "username": "MichaelJordan23",
+      "imagepath": "0c2fc6bb-d6b5-4959-a06b-f73c055d1928.jpg",
+      "numberofvotes": 0,
+      "hasvoted": false
+    },
+    {
+      "username": "LebronJames",
+      "imagepath": "752c210e-815e-48c8-8496-36e5e01e2678.jpg",
+      "numberofvotes": 0,
+      "hasvoted": false
+    }
+  ],
+  "locationid": {
+    "$oid": "64c92e1482ff677e286589d0"
+  },
+  "skill": "Expert",
+  "hostid": {
+    "$oid": "64c9302c82ff677e286589e2"
+  },
+  "date": {
+    "$date": "2023-08-22T07:00:55.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c9309082ff677e28658a10"
+  },
+  "players": [
+    {
+      "username": "MichaelJordan23",
+      "imagepath": "0c2fc6bb-d6b5-4959-a06b-f73c055d1928.jpg",
+      "numberofvotes": 0,
+      "hasvoted": false
+    },
+    {
+      "username": "LebronJames",
+      "imagepath": "752c210e-815e-48c8-8496-36e5e01e2678.jpg",
+      "numberofvotes": 0,
+      "hasvoted": false
+    },
+    {
+      "username": "Kyrie",
+      "imagepath": "56745a64-ab9c-4719-bf8e-7514019e3c15.jpg",
+      "numberofvotes": 0,
+      "hasvoted": false
+    },
+    {
+      "username": "Jwill",
+      "imagepath": "bf9814b8-d295-4f51-8fe9-f4087fd5e4ea.jpg",
+      "numberofvotes": 0,
+      "hasvoted": false
+    }
+  ],
+  "locationid": {
+    "$oid": "64c92d5b82ff677e286589cc"
+  },
+  "skill": "Expert",
+  "hostid": {
+    "$oid": "64c9306682ff677e286589f8"
+  },
+  "date": {
+    "$date": "2023-08-25T17:00:04.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c9324682ff677e28658a82"
+  },
+  "players": [
+    {
+      "username": "Kobe",
+      "imagepath": "c52bdfb6-e05b-48a8-b418-a2d8db678970.jpg",
+      "numberofvotes": 0,
+      "hasvoted": false
+    },
+    {
+      "username": "Magic",
+      "imagepath": "878487e2-aba2-4056-ac90-4aebda09e563.jpeg",
+      "numberofvotes": 0,
+      "hasvoted": false
+    },
+    {
+      "username": "Jwill",
+      "imagepath": "bf9814b8-d295-4f51-8fe9-f4087fd5e4ea.jpg",
+      "numberofvotes": 0,
+      "hasvoted": false
+    },
+    {
+      "username": "linsanity",
+      "imagepath": "75601625-cbe6-4503-a132-7e383e142cbb.jpg",
+      "numberofvotes": 0,
+      "hasvoted": false
+    },
+    {
+      "username": "Rodman",
+      "imagepath": "d6300445-878f-44f7-877c-27a081d38c74.jpg",
+      "numberofvotes": 0,
+      "hasvoted": false
+    }
+  ],
+  "locationid": {
+    "$oid": "64c92c3582ff677e286589c4"
+  },
+  "skill": "Expert",
+  "hostid": {
+    "$oid": "64c9322c82ff677e28658a7a"
+  },
+  "date": {
+    "$date": "2023-08-26T19:00:36.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c933ba82ff677e28658af1"
+  },
+  "players": [
+    {
+      "username": "rdcMark",
+      "imagepath": "35caaecb-7149-4abd-9bb7-92a9204f4b28.jpg",
+      "numberofvotes": 0,
+      "hasvoted": false
+    },
+    {
+      "username": "Obama",
+      "imagepath": "e45639d7-9b9e-4123-82f8-34d5beca52fb.jpg",
+      "numberofvotes": 0,
+      "hasvoted": false
+    },
+    {
+      "username": "DK",
+      "imagepath": "5f1ecd23-41f0-46e1-a0d8-4dcea3460753.png",
+      "numberofvotes": 0,
+      "hasvoted": false
+    }
+  ],
+  "locationid": {
+    "$oid": "64c92c3582ff677e286589c4"
+  },
+  "skill": "Beginner",
+  "hostid": {
+    "$oid": "64c9338482ff677e28658adf"
+  },
+  "date": {
+    "$date": "2023-08-29T05:00:22.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c9347882ff677e28658b2d"
+  },
+  "players": [
+    {
+      "username": "Obama",
+      "imagepath": "e45639d7-9b9e-4123-82f8-34d5beca52fb.jpg",
+      "numberofvotes": 0,
+      "hasvoted": false
+    },
+    {
+      "username": "Trump",
+      "imagepath": "c7c67715-3485-4857-87d3-3d90214352b0.jpg",
+      "numberofvotes": 0,
+      "hasvoted": false
+    },
+    {
+      "username": "Biden",
+      "imagepath": "a03cf0d7-7f86-4e91-86cb-cd093a9009a7.jpg",
+      "numberofvotes": 0,
+      "hasvoted": false
+    },
+    {
+      "username": "Bernie",
+      "imagepath": "5f28a37c-11de-4230-b25f-73da27959436.jpg",
+      "numberofvotes": 0,
+      "hasvoted": false
+    },
+    {
+      "username": "Sebastian",
+      "imagepath": "744b981f-7e41-45ed-ab70-27f58b4d5b97.jpg",
+      "numberofvotes": 0,
+      "hasvoted": false
+    }
+  ],
+  "locationid": {
+    "$oid": "64c92e1482ff677e286589d0"
+  },
+  "skill": "Intermediate",
+  "hostid": {
+    "$oid": "64c9343582ff677e28658b05"
+  },
+  "date": {
+    "$date": "2023-10-17T07:30:54.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c936cc82ff677e28658bf8"
+  },
+  "players": [
+    {
+      "username": "Jokic",
+      "imagepath": "65c24e15-812a-4891-9ddc-a35c07ccf875.jpg",
+      "numberofvotes": 0,
+      "hasvoted": false
+    },
+    {
+      "username": "linsanity",
+      "imagepath": "75601625-cbe6-4503-a132-7e383e142cbb.jpg",
+      "numberofvotes": 0,
+      "hasvoted": false
+    },
+    {
+      "username": "Kobe",
+      "imagepath": "c52bdfb6-e05b-48a8-b418-a2d8db678970.jpg",
+      "numberofvotes": 0,
+      "hasvoted": false
+    },
+    {
+      "username": "Jwill",
+      "imagepath": "bf9814b8-d295-4f51-8fe9-f4087fd5e4ea.jpg",
+      "numberofvotes": 0,
+      "hasvoted": false
+    },
+    {
+      "username": "Rodman",
+      "imagepath": "d6300445-878f-44f7-877c-27a081d38c74.jpg",
+      "numberofvotes": 0,
+      "hasvoted": false
+    }
+  ],
+  "locationid": {
+    "$oid": "64c92ca182ff677e286589c8"
+  },
+  "skill": "Expert",
+  "hostid": {
+    "$oid": "64c936a482ff677e28658be6"
+  },
+  "date": {
+    "$date": "2023-08-12T22:00:49.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c9374e82ff677e28658c7e"
+  },
+  "players": [
+    {
+      "username": "Biden",
+      "imagepath": "a03cf0d7-7f86-4e91-86cb-cd093a9009a7.jpg",
+      "numberofvotes": 0,
+      "hasvoted": false
+    },
+    {
+      "username": "Bernie",
+      "imagepath": "5f28a37c-11de-4230-b25f-73da27959436.jpg",
+      "numberofvotes": 0,
+      "hasvoted": false
+    },
+    {
+      "username": "Obama",
+      "imagepath": "e45639d7-9b9e-4123-82f8-34d5beca52fb.jpg",
+      "numberofvotes": 0,
+      "hasvoted": false
+    },
+    {
+      "username": "Trump",
+      "imagepath": "c7c67715-3485-4857-87d3-3d90214352b0.jpg",
+      "numberofvotes": 0,
+      "hasvoted": false
+    }
+  ],
+  "locationid": {
+    "$oid": "64c92ca182ff677e286589c8"
+  },
+  "skill": "Beginner",
+  "hostid": {
+    "$oid": "64c9350a82ff677e28658b56"
+  },
+  "date": {
+    "$date": "2023-08-24T18:00:58.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c9382a82ff677e28658d25"
+  },
+  "players": [
+    {
+      "username": "Bowser",
+      "imagepath": "a5ea9d3d-c6cc-44ba-8fe2-cf565ef880ff.png",
+      "numberofvotes": 0,
+      "hasvoted": false
+    },
+    {
+      "username": "Luigi",
+      "imagepath": "b3e0a044-f073-4b42-863c-0878720846f8.png",
+      "numberofvotes": 0,
+      "hasvoted": false
+    },
+    {
+      "username": "Peach",
+      "imagepath": "b95bc70c-42c7-48a3-ba31-d1ae03cb5179.png",
+      "numberofvotes": 0,
+      "hasvoted": false
+    },
+    {
+      "username": "Mario",
+      "imagepath": "b9006a38-622d-4b38-90ff-632ae88d9707.jpg",
+      "numberofvotes": 0,
+      "hasvoted": false
+    }
+  ],
+  "locationid": {
+    "$oid": "64c92d5b82ff677e286589cc"
+  },
+  "skill": "Intermediate",
+  "hostid": {
+    "$oid": "64c9360682ff677e28658b9a"
+  },
+  "date": {
+    "$date": "2023-11-20T09:30:41.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c9396982ff677e28658e73"
+  },
+  "players": [
+    {
+      "username": "DK",
+      "imagepath": "5f1ecd23-41f0-46e1-a0d8-4dcea3460753.png",
+      "numberofvotes": 0,
+      "hasvoted": false
+    },
+    {
+      "username": "linsanity",
+      "imagepath": "75601625-cbe6-4503-a132-7e383e142cbb.jpg",
+      "numberofvotes": 0,
+      "hasvoted": false
+    },
+    {
+      "username": "Biden",
+      "imagepath": "a03cf0d7-7f86-4e91-86cb-cd093a9009a7.jpg",
+      "numberofvotes": 0,
+      "hasvoted": false
+    },
+    {
+      "username": "Mario",
+      "imagepath": "b9006a38-622d-4b38-90ff-632ae88d9707.jpg",
+      "numberofvotes": 0,
+      "hasvoted": false
+    }
+  ],
+  "locationid": {
+    "$oid": "64c92ee782ff677e286589d4"
+  },
+  "skill": "Intermediate",
+  "hostid": {
+    "$oid": "64c9363182ff677e28658bc0"
+  },
+  "date": {
+    "$date": "2023-08-27T20:00:01.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c939db82ff677e28658ed9"
+  },
+  "players": [
+    {
+      "username": "Obama",
+      "imagepath": "e45639d7-9b9e-4123-82f8-34d5beca52fb.jpg",
+      "numberofvotes": 0,
+      "hasvoted": false
+    },
+    {
+      "username": "Trump",
+      "imagepath": "c7c67715-3485-4857-87d3-3d90214352b0.jpg",
+      "numberofvotes": 0,
+      "hasvoted": false
+    },
+    {
+      "username": "Bernie",
+      "imagepath": "5f28a37c-11de-4230-b25f-73da27959436.jpg",
+      "numberofvotes": 0,
+      "hasvoted": false
+    },
+    {
+      "username": "Biden",
+      "imagepath": "a03cf0d7-7f86-4e91-86cb-cd093a9009a7.jpg",
+      "numberofvotes": 0,
+      "hasvoted": false
+    }
+  ],
+  "locationid": {
+    "$oid": "64c92ee782ff677e286589d4"
+  },
+  "skill": "Intermediate",
+  "hostid": {
+    "$oid": "64c9343582ff677e28658b05"
+  },
+  "date": {
+    "$date": "2023-08-26T07:00:52.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c9c2e95917b493d92b1cc2"
+  },
+  "players": [
+    {
+      "username": "Luigi",
+      "imagepath": "b3e0a044-f073-4b42-863c-0878720846f8.png",
+      "numberofvotes": 0,
+      "hasvoted": false
+    }
+  ],
+  "locationid": {
+    "$oid": "64c9c2ce5917b493d92b1cbe"
+  },
+  "skill": "Intermediate",
+  "hostid": {
+    "$oid": "64c9361982ff677e28658bad"
+  },
+  "date": {
+    "$date": "2023-08-13T01:30:26.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c9d639b6bd4a31d3d43a9b"
+  },
+  "players": [
+    {
+      "username": "Peach",
+      "imagepath": "b95bc70c-42c7-48a3-ba31-d1ae03cb5179.png",
+      "numberofvotes": 0,
+      "hasvoted": true
+    },
+    {
+      "username": "Kobe",
+      "imagepath": "c52bdfb6-e05b-48a8-b418-a2d8db678970.jpg",
+      "numberofvotes": 0,
+      "hasvoted": false
+    },
+    {
+      "username": "stephcurry",
+      "imagepath": "491d3090-9b22-4c15-8de8-94e96e749f0c.jpg",
+      "numberofvotes": 0,
+      "hasvoted": false
+    },
+    {
+      "username": "Bowser",
+      "imagepath": "a5ea9d3d-c6cc-44ba-8fe2-cf565ef880ff.png",
+      "numberofvotes": 1,
+      "hasvoted": false
+    }
+  ],
+  "locationid": {
+    "$oid": "64c92d5b82ff677e286589cc"
+  },
+  "skill": "Beginner",
+  "hostid": {
+    "$oid": "64c9366982ff677e28658bd3"
+  },
+  "date": {
+    "$date": "2023-08-01T18:00:12.895Z"
+  },
+  "__v": 0
+}]

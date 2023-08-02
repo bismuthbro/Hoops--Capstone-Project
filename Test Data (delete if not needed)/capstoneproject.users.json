@@ -1,0 +1,220 @@
+[{
+  "_id": {
+    "$oid": "64c9275d82ff677e28658960"
+  },
+  "username": "bismuth_bro",
+  "password": "$2b$12$WQYg6tnh3PZr0iUmyxKE9uBv71UMjkvrAOlK.8NIA93YuopN5Rnd6",
+  "imagepath": "8a301910-fdb9-49b0-a469-040f593030c1.jpg",
+  "mvp": 12,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c9302c82ff677e286589e2"
+  },
+  "username": "stephcurry",
+  "password": "$2b$12$2Ou.IYw8kUAWsHfeCSN22.SIphPybGw0Ft2LX6H/NCjMqGDZAlcEa",
+  "imagepath": "491d3090-9b22-4c15-8de8-94e96e749f0c.jpg",
+  "mvp": 235,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c9306682ff677e286589f8"
+  },
+  "username": "MichaelJordan23",
+  "password": "$2b$12$IJTFCf.oo7bjlql8opHSEe3BLmIFcAwMLkdDFcQAOQAfiziMoDGde",
+  "imagepath": "0c2fc6bb-d6b5-4959-a06b-f73c055d1928.jpg",
+  "mvp": 9999,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c9314582ff677e28658a1d"
+  },
+  "username": "LebronJames",
+  "password": "$2b$12$UlH2iM5s17dY5YOhrVTFbu2wdAMpepiZHJXtSR8i.xQngOgvuwYCq",
+  "imagepath": "752c210e-815e-48c8-8496-36e5e01e2678.jpg",
+  "mvp": 103,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c931df82ff677e28658a56"
+  },
+  "username": "Kyrie",
+  "password": "$2b$12$nLEv9zE4d1YUr8iiN83IV.YeHcoJF8L.jPqYMrx5bRUbuDFM/HLD6",
+  "imagepath": "56745a64-ab9c-4719-bf8e-7514019e3c15.jpg",
+  "mvp": 68,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c9322c82ff677e28658a7a"
+  },
+  "username": "Kobe",
+  "password": "$2b$12$7e5fWaeM.TbqdYhXl217TepPO.ArXe.eCEHRk6WN12RR.L6ilCg2.",
+  "imagepath": "c52bdfb6-e05b-48a8-b418-a2d8db678970.jpg",
+  "mvp": 833,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c9329382ff677e28658a90"
+  },
+  "username": "Magic",
+  "password": "$2b$12$dvqlI6s7AVOkhG9HpctlaeVSSz8HIVdPnvVniMwLl/fUr0ub91IY.",
+  "imagepath": "878487e2-aba2-4056-ac90-4aebda09e563.jpeg",
+  "mvp": 97,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c932d682ff677e28658aa3"
+  },
+  "username": "Jwill",
+  "password": "$2b$12$YZ8Tpz.er1HOhbfTgeIvM.5SvkfJpVT/tq.yRuFbjO8qq22CqBOXe",
+  "imagepath": "bf9814b8-d295-4f51-8fe9-f4087fd5e4ea.jpg",
+  "mvp": 44,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c9331e82ff677e28658ab6"
+  },
+  "username": "linsanity",
+  "password": "$2b$12$KbazNI/mc1am3bt2xyF7G.Tz.BjSh1vWDpyybzTQUiXdQSUYR38p6",
+  "imagepath": "75601625-cbe6-4503-a132-7e383e142cbb.jpg",
+  "mvp": 22,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c9336982ff677e28658ac5"
+  },
+  "username": "Rodman",
+  "password": "$2b$12$tLVQFdIiH15jZPHHdBtCQeZPVHyeARmFbilTaoxQMOQXXDf5fIr0.",
+  "imagepath": "d6300445-878f-44f7-877c-27a081d38c74.jpg",
+  "mvp": 351,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c9338482ff677e28658adf"
+  },
+  "username": "rdcMark",
+  "password": "$2b$12$sQf97Z9aut0iUBj1ydDeHOJpNwbFoDTBACqVe521rAbKkd4a/DCBe",
+  "imagepath": "35caaecb-7149-4abd-9bb7-92a9204f4b28.jpg",
+  "mvp": 2,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c9343582ff677e28658b05"
+  },
+  "username": "Obama",
+  "password": "$2b$12$mlHU.wysmbTZ3sHrrqVolO4SUY3YolwVwxvBPjLeWiDAvsqxdO2gu",
+  "imagepath": "e45639d7-9b9e-4123-82f8-34d5beca52fb.jpg",
+  "mvp": 8,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c934d282ff677e28658b3f"
+  },
+  "username": "Trump",
+  "password": "$2b$12$g8w/IRSoVbT2fQ2i6uTai.otduN2p0RruLZMn7aqb2ShznKa7Ohg.",
+  "imagepath": "c7c67715-3485-4857-87d3-3d90214352b0.jpg",
+  "mvp": 2,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c9350a82ff677e28658b56"
+  },
+  "username": "Biden",
+  "password": "$2b$12$ZWqJMcslxMPumiBHedlNpeEvkSHi4dqu9L4Ee5aGaZ8DJnMgnaKhy",
+  "imagepath": "a03cf0d7-7f86-4e91-86cb-cd093a9009a7.jpg",
+  "mvp": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c9354b82ff677e28658b6d"
+  },
+  "username": "Bernie",
+  "password": "$2b$12$V.cEMXBRgT5YIfH/kVmUGePniqcaH5G4XYESgIgG9WAoSa8c9kZ6y",
+  "imagepath": "5f28a37c-11de-4230-b25f-73da27959436.jpg",
+  "mvp": 1,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c935d882ff677e28658b84"
+  },
+  "username": "Mario",
+  "password": "$2b$12$.CCQZKpSBxiwRorGGKBBXe41Y0qJ1HzWtQlhZ2g/OFdehbatMJax2",
+  "imagepath": "b9006a38-622d-4b38-90ff-632ae88d9707.jpg",
+  "mvp": 13,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c9360682ff677e28658b9a"
+  },
+  "username": "Bowser",
+  "password": "$2b$12$Dx0egL9pgZhybSaiq.5AwutCoBSaqszKL3AoJOEGWrD3yFPZpXPfC",
+  "imagepath": "a5ea9d3d-c6cc-44ba-8fe2-cf565ef880ff.png",
+  "mvp": 7,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c9361982ff677e28658bad"
+  },
+  "username": "Luigi",
+  "password": "$2b$12$epbdoJHDKViQ7NCqDjGOCOE4A8hnYH9rAR9v.9An..vYMG40NrX4m",
+  "imagepath": "b3e0a044-f073-4b42-863c-0878720846f8.png",
+  "mvp": 10,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c9363182ff677e28658bc0"
+  },
+  "username": "DK",
+  "password": "$2b$12$lEefpGHIyJoZ5lVMm8uMIu/ONkfZwjk0SVP0ElqPNggyk2TxzCT3i",
+  "imagepath": "5f1ecd23-41f0-46e1-a0d8-4dcea3460753.png",
+  "mvp": 12,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c9366982ff677e28658bd3"
+  },
+  "username": "Peach",
+  "password": "$2b$12$uZAvJz3lICV/FjLHTdMiPu1gA4L626VaWmV0RN6bC9GuXnG7bnWmy",
+  "imagepath": "b95bc70c-42c7-48a3-ba31-d1ae03cb5179.png",
+  "mvp": 12,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c936a482ff677e28658be6"
+  },
+  "username": "Jokic",
+  "password": "$2b$12$F3xjgGpFZQadIm3fdnRcjO.0NKH1cBDQmM.eBh9fMHavwnsKxSdVy",
+  "imagepath": "65c24e15-812a-4891-9ddc-a35c07ccf875.jpg",
+  "mvp": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c9c1b45917b493d92b1c6e"
+  },
+  "username": "Sebastian",
+  "password": "$2b$12$w6LbJM/5m4QsG8RxRPliUusqZDpGJH3Njz4DbF3tuqcHbjp8kH0BC",
+  "imagepath": "744b981f-7e41-45ed-ab70-27f58b4d5b97.jpg",
+  "mvp": 0,
+  "__v": 0
+}]
